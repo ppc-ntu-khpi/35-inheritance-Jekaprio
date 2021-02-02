@@ -1,8 +1,9 @@
 package domain;
 
-public class Predator extends Animal {
+public class Predator extends Animals {
 
+    @Override
     public void hunt() {
-        System.out.println("Predator is hunting...");
+        System.out.println("Predator is hunting");
     }
 }
